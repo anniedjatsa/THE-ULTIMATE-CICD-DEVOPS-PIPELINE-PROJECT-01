@@ -1,0 +1,50 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keys
+*.pem
+*.key
+
+
+# Ignore AWS installation files and archives
+aws/
+awscliv2.zip
+
+# Ignore sensitive or local environment files
+*.pem
+*.key
+*.crt
+*.csr
+
+# Ignore Terraform local state and lock files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# Ignore VS Code and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
